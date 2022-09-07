@@ -1,0 +1,19 @@
+.container-text{
+    margin-top: 2rem;
+    margin-bottom: 1.6rem;
+    font-family: Overpass;
+}
+
+.container-text>:nth-child(1){
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-text>:nth-child(2){
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+

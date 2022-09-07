@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap);
+
+.card{
+    background-color: rgb(31,38,48);
+    border-radius: 2vw;
+    min-height: 35vh;
+    padding: 1.6rem;
+    max-width: 40%;
+    margin: auto;
+}
+
+.circle-img{
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 0px;
+    max-height: 0px;
+    padding: 1.6rem;
+    background-color:rgb(39,48,59);
+}
+
+.container-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 669px) {
+    .card{    
+        border-radius: 5vw;
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+/* @media screen and (max-width: 376px) {
+    .card{    
+        margin: auto 2rem;
+    }
+} */

@@ -1,0 +1,28 @@
+.button-number{
+    font-family: Overpass;
+    color: hsl(216, 12%, 54%);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    max-width: 0px;
+    max-height: 0px;
+    padding: 1.6rem;
+    background-color: rgb(39,48,59);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button-number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    .button-number{
+        font-size: 15px;
+        padding: 1.5rem;
+    }
+    
+}
